@@ -46,9 +46,9 @@ To see the list of avaiable tests, type the following command:
 Tree structure of the model file associated with model named *model*:
 
 ```bash
-- **/**
--- **models/**
---- **model/**
+- /
+-- models/
+--- model/
 ---- model.net
 ---- observations.spec
 ```
