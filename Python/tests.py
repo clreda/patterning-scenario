@@ -248,6 +248,8 @@ def test_diffusion2():
 		plt.axhline(vg, color="g", linestyle=":")
 	for vg in range(len(y2)):
 		plt.axhline(vg, color="g", linestyle=":")
+	plt.fill_between(x, y2, facecolor='red', alpha=0.5)
+	plt.fill_between(x, y1, facecolor='blue', alpha=0.5)
 	plt.show()
 	print("TEST END   ---------")
 
