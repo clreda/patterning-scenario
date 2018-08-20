@@ -1,0 +1,117 @@
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #0
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,1,1,0,0,0,0,1,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #1
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+0,0,0,1,0,1,0,0,0,1,0,1,1,0,0
+0,0,0,1,0,1,0,1,0,0,1,0,0,1,1
+0,0,0,0,1,1,0,1,1,1,0,1,1,1,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #2
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+0,0,0,0,0,1,1,0,0,1,0,1,0,1,0
+0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #3
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+0,0,0,1,1,0,1,0,0,1,0,0,1,1,1
+0,0,0,1,0,1,1,0,0,1,0,1,0,1,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #4
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+0,0,0,1,1,1,0,0,0,0,1,0,1,1,1
+0,0,0,0,0,0,1,0,1,0,1,0,0,0,1
+0,0,0,1,0,0,1,1,1,0,0,1,1,0,1
+0,0,0,1,0,1,0,0,0,1,0,1,1,1,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #5
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #6
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #7
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# 
+#  4 fields.
+
+
+# Model #1 for mutant-gap-gene
+# 
+# Trajectory #0, Time step #8
+# 
+# Bcd-1,Bcd-2,Bcd-3,Gt-1,Hb-zyg-1,Hb-zyg-2,Hb-zyg-3,Hb-mat-1,Hb-mat-2,Hb-mat-3,Kr-1,Kr-2,Cad-1,Cad-2,Kni-1
+1,0,0,0,0,0,1,0,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+# 
+#  4 fields.
+
+

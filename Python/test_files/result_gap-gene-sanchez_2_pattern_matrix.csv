@@ -1,0 +1,31 @@
+# Model #1 for mutant-gap-gene
+# 
+# Pattern matrix
+# 
+# Patterns = 
+# Pattern #0: {'source': 1, 'rate': 1.0, 'morphogen': 'Bcd'}
+# Pattern #1: {'source': 1, 'rate': 0.5, 'morphogen': 'Hb-mat'}
+# Pattern #2: {'source': 4, 'rate': 1.0, 'morphogen': 'Cad'}
+# Pattern #3: {'source': 1, 'rate': 0.5, 'morphogen': 'Bcd'}
+# Pattern #4: {'source': 1, 'rate': 1.0, 'morphogen': 'Hb-mat'}
+# Pattern #5: {'source': 4, 'rate': 0.5, 'morphogen': 'Cad'}
+# Pattern #6: {'source': 4, 'rate': 1.0, 'morphogen': 'Bcd'}
+# Pattern #7: {'source': 4, 'rate': 0.5, 'morphogen': 'Hb-mat'}
+# Pattern #8: {'source': 1, 'rate': 1.0, 'morphogen': 'Cad'}
+# Pattern #9: {'source': 4, 'rate': 0.5, 'morphogen': 'Bcd'}
+# Pattern #10: {'source': 4, 'rate': 1.0, 'morphogen': 'Hb-mat'}
+# Pattern #11: {'source': 1, 'rate': 0.5, 'morphogen': 'Cad'}
+# 
+# 0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0

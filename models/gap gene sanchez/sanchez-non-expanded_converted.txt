@@ -1,0 +1,90 @@
+	$Gt := {
+		$formula := {
+			( ( ( Hb-zyg=0 ) and ( Kr=0 ) and Bcd=1 ) or ( ( Hb-zyg=0 ) and ( Kr=0 ) and Cad=2 ) or ( ( Hb-zyg=0 ) and Bcd=1 and Cad=2 ) or ( ( Kr=0 ) and Bcd=1 and Cad=2 ) );
+			$output := 1;
+		};
+	}
+	$Hb-zyg := {
+		$formula := {
+			( ( Hb-zyg=2 and ( Kr=0 or Kr=1 ) ) or ( Hb-zyg=3 and ( Kr=0 or Kr=1 ) ) or ( Hb-mat=1 and ( Kr=0 or Kr=1 ) ) or ( Bcd=1 and ( Kr=0 or Kr=1 ) ) or ( Bcd=2 and ( Kr=0 or Kr=1 ) ) or ( Bcd=3 and ( Kr=0 or Kr=1 ) ) );
+			$output := 1;
+		};
+	}
+	$Hb-zyg := {
+		$formula := {
+			( ( Hb-zyg=1 and ( Kr=0 or Kr=1 ) ) or ( Hb-zyg=3 and ( Kr=0 or Kr=1 ) ) or ( Hb-mat=1 and ( Kr=0 or Kr=1 ) ) or ( Bcd=1 and ( Kr=0 or Kr=1 ) ) or ( Bcd=2 and ( Kr=0 or Kr=1 ) ) or ( Bcd=3 and ( Kr=0 or Kr=1 ) ) );
+			$output := 2;
+		};
+	}
+	$Hb-zyg := {
+		$formula := {
+			( ( Hb-zyg=1 and Hb-zyg=2 and Bcd=1 and Bcd=3 ) );
+			$output := 3;
+		};
+	}
+	$Hb-mat := {
+		$formula := {
+			( ( Hb-mat=2 ) or ( Hb-mat=3 ) );
+			$output := 1;
+		};
+	}
+	$Hb-mat := {
+		$formula := {
+			( ( Hb-mat=1 ) or ( Hb-mat=3 ) );
+			$output := 2;
+		};
+	}
+	$Hb-mat := {
+		$formula := {
+			( ( Hb-mat=1 ) or ( Hb-mat=2 ) );
+			$output := 3;
+		};
+	}
+	$Kr := {
+		$formula := {
+			( ( Hb-zyg=1 and Kr=2 and Bcd=1 ) );
+			$output := 1;
+		};
+	}
+	$Kr := {
+		$formula := {
+			( ( Hb-zyg=1 and ( Gt=0 ) ) or ( Kr=1 and ( Gt=0 ) ) or ( Bcd=1 and ( Gt=0 ) ) or ( Hb-zyg=1 and Kr=1 and Bcd=1 ) );
+			$output := 2;
+		};
+	}
+	$Kni := {
+		$formula := {
+			( ( Bcd=1 and ( Gt=0 ) and ( Hb-zyg=0 or Hb-zyg=1 ) ) or ( Cad=1 and ( Gt=0 ) and ( Hb-zyg=0 or Hb-zyg=1 ) ) );
+			$output := 1;
+		};
+	}
+	$Bcd := {
+		$formula := {
+			( ( Bcd=2 and Bcd=3 ) );
+			$output := 1;
+		};
+	}
+	$Bcd := {
+		$formula := {
+			( ( Bcd=1 ) or ( Bcd=3 ) );
+			$output := 2;
+		};
+	}
+	$Bcd := {
+		$formula := {
+			( ( Bcd=1 ) or ( Bcd=2 ) );
+			$output := 3;
+		};
+	}
+	$Cad := {
+		$formula := {
+			( ( Cad=2 ) );
+			$output := 1;
+		};
+	}
+	$Cad := {
+		$formula := {
+			( ( Cad=1 ) );
+			$output := 2;
+		};
+	}
