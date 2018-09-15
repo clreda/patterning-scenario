@@ -179,7 +179,6 @@ def model_to_plot(trajectory, k, exp_id, model_id, modelname, multi_binary_dict,
 	## Convert binary trajectory matrix into multi-level trajectory matrix
 	trajectory_multi = binary_to_multi(trajectory, k, multi_binary_dict, verbose=verbose, debug=debug)
 	nrow, m = shape(trajectory_multi)
-	nfields = int(nrow/k)
 	if (verbose):
 		print("\n---- Plotting the resulting multi-level matrix")
 		print("\n-- Multi-level matrix")

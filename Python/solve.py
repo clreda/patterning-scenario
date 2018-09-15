@@ -21,7 +21,7 @@ def to_plottable_matrix(trajectories, model_id, modelname, multi_binary_dict, ve
 		trajectory_flat = zeros((k*nf, m))
 		for gene_id in range(m):
 			trajectory_flat[0:, gene_id] = list(reshape(trajectories[exp, 0:, 0:, gene_id], (k*nf, 1)))
-		model_to_plot(trajectory_flat, k, exp, model_id, modelname, multi_binary_dict, verbose=verbose)
+		model_to_plot(trajectory_flat, k-1, exp, model_id, modelname, multi_binary_dict, verbose=verbose)
 	print("\nMSG: Plot for solution #" + str(model_id+1) + " of model " + modelname)
 	return(None)
 

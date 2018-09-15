@@ -210,7 +210,7 @@ def test_diffusion():
 	print("\n--- Rate = 1 (~100% diffusion)")
 	rate = 1
 	aux_diffusion(rate, max_value, source, fields, f)
-	print("TEST END   ---------")
+	print("\nTEST END   ---------")
 
 def test_diffusion2():
 	## For Figure in report
@@ -218,7 +218,7 @@ def test_diffusion2():
 	print("TEST START ---------")
 	nfields = 3
 	fields = [[x, [float(x)]] for x in range(1, nfields+1)]
-	source = 0
+	source = 2
 	max_value_M2, rate_M2 = 1, 1
 	max_value_M1, rate_M1 = 3, 0.5
 	f = version1_diffusion #default_diffusion 
@@ -922,6 +922,7 @@ def test_cond_diffusion():
 			else:
 				print("\n-- Initial step: " + str(Q_diff[ii]) + " == 0")
 				s.add(Q_diff[ii] == buildZERO(m))
+	print("\nDiffusion rate = " + str(diffusion_rate))
 	enumerate_solutions(s, Q_diff+Q_nxt, multi_binary_dict, nb=0, print_model=False)
 	print("\nTEST END   ---------")
 
@@ -1389,6 +1390,8 @@ while (i < len(names) and lenargvC):
 	i += 1
 if (lenargvC and sys.argv[1] == "--all"):
 	all_tests()
+	done = True
+if (lenargvC and sys.argv[1] == "--h" and not done):
 	done = True
 if (i == len(names) and lenargvC and not done):
 	error = "If you wanted to run a test on a file, maybe you mistyped the filename."
